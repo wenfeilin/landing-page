@@ -51,7 +51,7 @@ nav a {
 .hero {
   display: flex;
   justify-content: center;
-  gap: 1.5em;
+  gap: 4em;
   background-color: #1F2937;
   color: #F9FAF8;
   padding: 80px 200px;
@@ -143,6 +143,7 @@ blockquote p {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
+  margin-bottom: 10px;
 }
 
 cite {
@@ -159,7 +160,7 @@ cite {
   justify-content: center;
   align-items: center;  
   /* height: 200px; */
-  padding: 90px 0;
+  padding: 90px 30px;
 }
 
 .cta-container {
@@ -167,12 +168,13 @@ cite {
   justify-content: space-between;
   align-items: center;
   width: 1000px;
-  /* gap: 2em; */
+  gap: 1.5em;
   background-color: #3882F6;
   color: #F9FAF8;
   padding: 50px 120px;
   border-radius: 8px;
 }
+
 .cta-title {
   font-size: 22px;
 }
