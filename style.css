@@ -86,3 +86,41 @@ nav a {
 .hero-image {
   width: 450px;
 }
+
+/* Random Info */
+.random-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  padding: 40px 200px 100px; 
+  text-align: center;
+}
+
+.random-info-title {
+  font-size: 36px;
+  font-weight: 900px;
+  color: #1F2937
+}
+
+.random-info-content {
+  display: flex;
+  gap: 3em;
+}
+
+.random-info-figure {
+  width: 150px;
+}
+
+.random-info-figure img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 0.25em;
+  border-radius: 10px;
+  border: 4px solid #3882F6;
+}
+.random-info-figure figcaption {
+  color: #505050;
+}
